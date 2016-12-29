@@ -33,6 +33,6 @@
 
 ##### 使用 retain 和 sum 语句  
 >* variable+expression;  
- * 语句等价于如下形式：  
- * RETAIN variable 0;  
- * variable=SUM(variable,expression);
+* 语句等价于如下形式：  
+* RETAIN variable 0;  
+* variable=SUM(variable,expression);
