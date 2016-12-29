@@ -20,3 +20,6 @@
       * 比如：IF Model='Mustang' THEN Make='Ford';
       * 还有 IN 比较符，比如这句中 IF Model IN('Corvette','Camaro') THEN Make='Chevrolet';  
       * 代表当Model 为 Corvette 或 Camaro 的时候，将 Chevrolet 赋给 Make。
+      
+      * 一个条件只能有一个执行，如果要多个执行，则需要 DO 和 END 关键字。  
+      * 可以用 AND 和 OR 来定义多个条件：IF Model='Mustang' AND Year<1975 THEN Status='classic';
