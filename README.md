@@ -18,4 +18,5 @@
 ##### 使用 IF-THEN  
       条件语句 IF-THEN 的基本形式为：IF 条件 THEN 执行;
       比如：IF Model='Mustang' THEN Make='Ford';
-      还有 IN 比较符，比如这句中 IF Model IN('Corvette','Camaro') THEN Make='Chevrolet';代表当Model 为 Corvette 或 Camaro 的时候，将 Chevrolet 赋给 Make。
+      还有 IN 比较符，比如这句中 IF Model IN('Corvette','Camaro') THEN Make='Chevrolet';  
+      代表当Model 为 Corvette 或 Camaro 的时候，将 Chevrolet 赋给 Make。
