@@ -30,3 +30,9 @@
 * 如果 IF 条件中的数据是真，则数据步将继续执行。  
 * 还可以使用 DELETE 语句，来删除哪些不要的数据： IF expression THEN DELETE;  
 * 这两句话是等价的： IF Sex='f'; IF Sex='m'THEN DELETE;
+
+##### 使用 retain 和 sum 语句  
+>* variable+expression;  
+ * 语句等价于如下形式：  
+ * RETAIN variable 0;  
+ * variable=SUM(variable,expression);
