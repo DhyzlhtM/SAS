@@ -23,3 +23,10 @@
       
       * 一个条件只能有一个执行，如果要多个执行，则需要 DO 和 END 关键字。  
       * 可以用 AND 和 OR 来定义多个条件：IF Model='Mustang' AND Year<1975 THEN Status='classic';
+
+##### 构造子集  
+>* IF 语句可以构造子集，取数据集中的部分数据。  
+* 基本形式为： IF expression; 比如： IF Sex='f';  
+* 如果 IF 条件中的数据是真，则数据步将继续执行。  
+* 还可以使用 DELETE 语句，来删除哪些不要的数据： IF expression THEN DELETE;  
+* 这两句话是等价的： IF Sex='f'; IF Sex='m'THEN DELETE;
