@@ -1,6 +1,6 @@
 # SAS   
 ## 第一章 SAS 
-### 1.1 SAS 
+## 1.1 SAS 
 ##### SAS  程序布局
 > * SAS 语句不区分大小写。  
 * 一条语句可以持续到第二行（只要不把一个单词分开）。  
@@ -59,12 +59,12 @@
 
 
 ##### 使用 IF-THEN  
-      * 条件语句 IF-THEN 的基本形式为：IF 条件 THEN 执行;
-      * 比如：IF Model='Mustang' THEN Make='Ford';
-      * 还有 IN 比较符，比如这句中 IF Model IN('Corvette','Camaro') THEN Make='Chevrolet';  
+      * 条件语句 IF-THEN 的基本形式为：IF 条件 THEN 执行;  
+      * 比如：IF Model='Mustang' THEN Make='Ford';  
+      * 还有 IN 比较符，比如这句中 IF Model IN('Corvette','Camaro') THEN Make='Chevrolet';    
       * 代表当Model 为 Corvette 或 Camaro 的时候，将 Chevrolet 赋给 Make。
-      
-      * 一个条件只能有一个执行，如果要多个执行，则需要 DO 和 END 关键字。  
+        
+      * 一个条件只能有一个执行，如果要多个执行，则需要 DO 和 END 关键字。    
       * 可以用 AND 和 OR 来定义多个条件：IF Model='Mustang' AND Year<1975 THEN Status='classic';
 
 ##### 构造子集  
