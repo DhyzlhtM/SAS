@@ -9,8 +9,8 @@
 * 每一个 SAS 语句都由一个分号结尾
 
 ##### 注释
-    ```
-    *Read animals’weights from file;
+    ```SAS
+    *Read animals’weights from file;
      DATA animals;
      INFILE’c:\MyRawData\Zoo.dat’;
      INPUT Lions Tigers;
